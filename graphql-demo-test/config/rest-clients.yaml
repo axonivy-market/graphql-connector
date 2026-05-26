@@ -1,6 +1,8 @@
+# yaml-language-server: $schema=https://json-schema.axonivy.com/14.0-dev/config/rest-clients-1.json
 RestClients:
   test-graphql:
-    UUID: bba7b230-4fe9-4f42-8a91-162112e52522
+    Name: test-graphql
     Url: ${ivy.app.baseurl}/api/graphql
     Features:
-    - ch.ivyteam.ivy.rest.client.mapper.JsonFeature
+      - ch.ivyteam.ivy.rest.client.mapper.JsonFeature
+    LegacyUUID: bba7b230-4fe9-4f42-8a91-162112e52522
