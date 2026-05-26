@@ -5,18 +5,18 @@
   <parent>
     <groupId>com.axonivy.ivy.api</groupId>
     <artifactId>ivy-project-parent</artifactId>
-    <version>13.2.0</version>
+    <version>14.0.0-SNAPSHOT</version>
     <relativePath></relativePath>
   </parent>
   <groupId>com.axonivy.demo.graphql</groupId>
   <artifactId>graphql-demo</artifactId>
-  <version>13.2.0-SNAPSHOT</version>
+  <version>14.0.0-SNAPSHOT</version>
   <packaging>iar</packaging>
   <dependencies>
     <dependency>
       <groupId>com.graphql-java</groupId>
       <artifactId>graphql-java</artifactId>
-      <version>24.1</version>
+      <version>230521-nf-execution</version>
     </dependency>
     <dependency>
       <groupId>com.axonivy.ivy.api</groupId>
