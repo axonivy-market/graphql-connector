@@ -1,8 +1,8 @@
 package com.axonivy.demo.graphql.resource;
 
-import javax.annotation.security.PermitAll;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
+import jakarta.annotation.security.PermitAll;
+import jakarta.ws.rs.POST;
+import jakarta.ws.rs.Path;
 import com.axonivy.demo.graphql.runtime.GraphQLExecutor;
 
 @Path("graphql")

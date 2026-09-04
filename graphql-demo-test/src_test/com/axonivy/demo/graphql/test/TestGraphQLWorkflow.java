@@ -1,8 +1,8 @@
 package com.axonivy.demo.graphql.test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import javax.ws.rs.client.Entity;
-import javax.ws.rs.client.WebTarget;
+import jakarta.ws.rs.client.Entity;
+import jakarta.ws.rs.client.WebTarget;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import ch.ivyteam.ivy.environment.Ivy;
